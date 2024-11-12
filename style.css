@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: contain;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.274);
+    backdrop-filter: blur(5px);
+    height: 80px;
+}
+#nav h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+#nav i{
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.342);
+    top: 0;
+    right: -30%;
+    backdrop-filter: blur(10px);
+    padding: 150px 60px;
+}
+
+#full h4{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px ;
+    cursor: pointer;
+}
+#full a{
+    text-decoration: none;
+    color: black;
+}
+
